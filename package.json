@@ -1,0 +1,37 @@
+{
+  "name": "html-webpack-display-loader-plugin",
+  "version": "0.0.1",
+  "description": "Inject light weight html & css to display a loader until script is loaded via HTML Webpack Plugin.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h-ikeda/html-webpack-display-loader-plugin.git"
+  },
+  "keywords": [
+    "html",
+    "webpack",
+    "plugin",
+    "loader",
+    "css",
+    "wait",
+    "start"
+  ],
+  "author": "Hiroki IKEDA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/h-ikeda/html-webpack-display-loader-plugin/issues"
+  },
+  "homepage": "https://github.com/h-ikeda/html-webpack-display-loader-plugin#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^2.28.0",
+    "jsdom": "^10.1.0",
+    "mocha": "^3.4.1",
+    "webpack": "^2.5.1"
+  },
+  "dependencies": {
+    "uuid": "^3.0.1"
+  }
+}

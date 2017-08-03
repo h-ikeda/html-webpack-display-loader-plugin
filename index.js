@@ -9,7 +9,7 @@ module.exports = class {
 
     apply(compiler) {
         compiler.plugin("compilation", compilation => {
-            compilation.plugin("html-webpack-plugin-after-html-processing", (htmlPluginData, callback) => {
+            compilation.plugin("html-webpack-plugin-before-html-processing", (htmlPluginData, callback) => {
                 const loader = this.createLoader();
                 if (loader.css) {
                     htmlPluginData.html = htmlPluginData.html.replace(/<\/head>/, "<style>" + loader.css + "</style>$&")

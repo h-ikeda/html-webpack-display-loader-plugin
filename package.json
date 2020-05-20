@@ -32,6 +32,6 @@
     "webpack": "^2.5.1"
   },
   "dependencies": {
-    "uuid": "^3.0.1"
+    "uuid": "^8.1.0"
   }
 }
